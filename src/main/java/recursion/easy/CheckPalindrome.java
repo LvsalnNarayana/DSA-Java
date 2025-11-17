@@ -1,5 +1,10 @@
 package recursion.easy;
 
+/* 
+ * Check palindrome (simple)	
+ * Check palindrome by comparing ends recursively.	
+ * Two-pointer recursion on string
+ */
 public class CheckPalindrome {
     public static void method1(String givenString) {
         if (givenString.equals("") || givenString.length() == 1) {

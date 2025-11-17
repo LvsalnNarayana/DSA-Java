@@ -3,8 +3,13 @@ package recursion.easy;
 import java.util.ArrayList;
 import java.util.List;
 
+/* 
+ * Count consonants in string	
+ * Count consonants recursively.	
+ * Index recursion on string
+ */
 public class CountConsonants {
-        static List<String> vowels = new ArrayList<String>(List.of("a", "e", "i", "o", "u"));
+    static List<String> vowels = new ArrayList<String>(List.of("a", "e", "i", "o", "u"));
 
     public static void method1(String parentString, int count) {
         if (parentString.length() == 0) {

@@ -1,5 +1,10 @@
 package recursion.easy;
 
+/* 
+ * Remove char from string	
+ * Return string with a character removed.	
+ * Filter recursion
+ */
 public class RemoveChar {
     public static void method1(String parentString, String oldChar, String newString) {
         if (parentString.length() == 0) {

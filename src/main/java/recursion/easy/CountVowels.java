@@ -3,6 +3,11 @@ package recursion.easy;
 import java.util.List;
 import java.util.ArrayList;
 
+/* 
+ * Count vowels in string	
+ * Count vowels (case-insensitive) recursively.	
+ * Index recursion on string
+ */
 public class CountVowels {
     static List<String> vowels = new ArrayList<String>(List.of("a", "e", "i", "o", "u"));
 

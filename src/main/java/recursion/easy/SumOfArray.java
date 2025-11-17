@@ -1,5 +1,10 @@
 package recursion.easy;
 
+/* 
+ * Sum of array elements	
+ * Return sum of all array elements recursively.	
+ * Index recursion with accumulation
+ */
 public class SumOfArray {
 
     public static void method1(int[] givenArray, int sum, int index) {

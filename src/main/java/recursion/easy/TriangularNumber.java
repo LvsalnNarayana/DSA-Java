@@ -1,5 +1,10 @@
 package recursion.easy;
 
+/* 
+ * Triangular number	
+ * Compute T(n) = 1 + 2 + ... + n recursively.	
+ * Return-based recursion
+ */
 public class TriangularNumber {
 
     public static int method1(int number) {

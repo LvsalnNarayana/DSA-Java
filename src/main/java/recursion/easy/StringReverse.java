@@ -1,5 +1,10 @@
 package recursion.easy;
 
+/* 
+ * Print string reverse	
+ * Print characters of string in reverse order.	
+ * Post-call recursion (stack unwinding)
+ */
 public class StringReverse {
     static String reversedString = "";
     static int index;

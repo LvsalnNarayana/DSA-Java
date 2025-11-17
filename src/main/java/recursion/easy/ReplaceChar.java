@@ -1,5 +1,10 @@
 package recursion.easy;
 
+/* 
+ * Replace char in string	
+ * Return new string with all occurrences replaced.	
+ * String recursion (rebuild)
+ */
 public class ReplaceChar {
     public static void method1(String parentString, String oldChar, String newChar, String newString) {
         if (parentString.length() == 0) {
@@ -9,7 +14,7 @@ public class ReplaceChar {
         if (parentString.substring(0, 1).equals(oldChar)) {
             method1(parentString.substring(1, (parentString.length())), oldChar, newChar,
                     newString + newChar);
-                    return;
+            return;
         }
         // else{
         // }

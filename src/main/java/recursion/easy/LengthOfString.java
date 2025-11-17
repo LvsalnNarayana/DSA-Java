@@ -1,5 +1,8 @@
 package recursion.easy;
-
+/* 
+ * 	Length of string
+ * 	Return-based string recursion
+ */
 public class LengthOfString {
 
     public static void method1(String givenString, int length) {
