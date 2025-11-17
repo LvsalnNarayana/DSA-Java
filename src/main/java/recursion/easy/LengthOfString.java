@@ -27,6 +27,6 @@ public class LengthOfString {
 
     public static void main(String[] args) {
         System.out.println("Length of String Output");
-        LengthOfString.method2("lanka venkata subrahmanya adi lakshmi narayana", 0);
+        LengthOfString.method2("hello world!", 0);
     }
 }
