@@ -11,8 +11,12 @@ public class SubSetsOfArray {
             return;
         }
         newArr.add(givenArr.get(index));
+        System.out.println("Index : "+index);
+        System.out.println("new array : "+newArr);
         method1(givenArr, index + 1, newArr);
         newArr.remove(newArr.size() - 1);
+        System.out.println("Index : "+index);
+        System.out.println("new array : "+newArr);
         method1(givenArr, index + 1, newArr);
     }
 
